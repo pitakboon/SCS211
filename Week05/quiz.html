@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <form class="g-3 needs-validation" novalidate>
+        <h1>กรอกใบสมัครมหาวิทยาลัยราชภัฏวไลยอลงกรณ์</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="validationServer04" class="form-label"
+              >คณะ/สาขาที่ต้องการ</label
+            >
+            <select
+              class="form-select is-invalid"
+              id="validationServer04"required
+              aria-describedby="validationServer04Feedback"
+              
+            >
+              <option selected disabled value="">เลือก</option>
+              <option >1.วิศวกรรมศาสตร์</option>
+              <option>2.วิทยาศาสตร์</option>
+              <option>2.ครุศาสตร์</option>
+            </select>
+            <div id="validationServer04Feedback" class="invalid-feedback">
+              กรุณาเลือกคณะ
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <label for="validationCustom03" class="form-label"
+              >คำนำหน้าชื่อ*(ชื่อเต็ม)</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom03"
+              required
+            />
+            <div class="invalid-feedback">กรุณาหรอกคำนำหน้าชื่อ</div>
+          </div>
+          <div class="col-md-2">
+            <label for="validationCustom01" class="form-label">ชื่อจริง</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              required
+            />
+            <div class="valid-feedback">กรุณากรอกชื่อ</div>
+          </div>
+          <div class="col-md-2">
+            <label for="validationCustom01" class="form-label">นามสกุล</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              required
+            />
+            <div class="valid-feedback">นามสกุลถูกต้อง</div>
+          </div>
+          <div class="col-md-2">
+            <label for="validationCustom01" class="form-label"
+              >บัตรประชาชน*</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              required
+            />
+            <div class="valid-feedback">บัตรประชาชนถูกต้อง</div>
+          </div>
+          <div class="col-md-2">
+            <label for="validationCustom01" class="form-label"
+              >หมายเลขโทรศัพท์*</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              required
+            />
+            <div class="valid-feedback">หมายเลขโทรศัพท์ถูกต้อง</div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip01" class="form-label"
+              >ID Line(ถ้ามี)</label
+            >
+            <input type="text" class="form-control" id="validationTooltip01" />
+            
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip01" class="form-label"
+              >Facebook(ถ้ามี)</label
+            >
+            <input type="text" class="form-control" id="validationTooltip01" />
+            
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip01" class="form-label">Email</label>
+            <input type="text" class="form-control" id="validationTooltip01" required/>
+            <div class="invalid-feedback">กรุณากรอก Email</div>
+            
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label"
+              >วุฒิการศึกษา</label
+            >
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">เลือก...</option>
+              <option>1. ม.6</option>
+              <option>2. ปวช.</option>
+              <option>3. ปวส.</option>
+            </select>
+          </div>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip01" class="form-label"
+              >ชื่อสถานศึกษา</label
+            >
+            <input type="text" class="form-control" id="validationTooltip01" required/>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">จังหวัด</label>
+            <select class="form-select" id="validationTooltip04"required>
+              <option selected disabled value="">เลือก...</option>
+              <option>1.ปทุมธานี</option>
+              <option>2.กรุงเทพมหานคร</option>
+              <option>3.อยุทธยา</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-2 position-relative">
+            <label for="validationTooltip01" class="form-label"
+              >สาขาที่เรียนจบ*</label
+            >
+            <input type="text" class="form-control" id="validationTooltip01" required/>
+          </div>
+          <div class="col-md-2 position-relative">
+            <label for="validationTooltip01" class="form-label"
+              >ผลการเรียนเฉลี่ย(GPAX)*</label
+            >
+            <input type="text" class="form-control" id="validationTooltip01" required/>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label"
+              >มีความต้องการกู้ยืมเพื่อการศึกษา</label
+            >
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">เลือก...</option>
+              <option>1.ใช่</option>
+              <option>2.ไม่</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-3 position-relative">
+            <label for="formFileSm" class="form-label"
+              >เอกสารแนบ(แฟ้มสะสมผลงาน)</label
+            >
+            <input
+              class="form-control form-control-sm"
+              id="formFileSm"
+              type="file"
+            required/>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" type="submit">ยืนยัน</button>
+        <button class="btn btn-danger" type="submit">ยกเลิก</button>
+      </form>
+    </div>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (() => {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach((form) => {
+          form.addEventListener(
+            "submit",
+            (event) => {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
