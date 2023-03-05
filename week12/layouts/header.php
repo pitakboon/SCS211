@@ -8,4 +8,3 @@
     </nav>
     <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
-
